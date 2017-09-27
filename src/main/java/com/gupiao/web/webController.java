@@ -17,6 +17,7 @@ public class webController {
 
     @RequestMapping("/getAssetId")
     public void getAssetId(){
+
         System.out.print(assetService.getAssetId());
     }
 }
